@@ -1,0 +1,32 @@
+@import url(./basic/reset.css);
+@import url(./basic/variables.css);
+@import url(./header/header.css);
+@import url(./footer/footer.css);
+
+@font-face {
+  font-family: inter-Bold;
+  src: url(/fonts/Inter18pt-Bold.woff2);
+}
+
+@font-face {
+  font-family: inter-Medium;
+  src: url(/fonts/Inter18pt-Medium.woff2);
+}
+
+@font-face {
+  font-family: inter-Regular;
+  src: url(/fonts/Inter18pt-Regular.woff2);
+}
+
+@font-face {
+  font-family: inter-SemiBold;
+  src: url(/fonts/Inter18pt-SemiBold.woff2);
+}
+
+
+
+.container {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
